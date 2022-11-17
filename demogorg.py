@@ -20,7 +20,7 @@ if "load_state" not in st.session_state:
 
 
 def get_response(txt):
-    openai.api_key = "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"
+    openai.api_key = "<OPENAI API KEY>"
     response = openai.Completion.create(
         engine="text-davinci-002",
         prompt="{}".format(txt),
