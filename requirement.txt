@@ -1,3 +1,4 @@
+# install libraries
 pip install streamlit 
 pip install pymysql
 pip install openai
